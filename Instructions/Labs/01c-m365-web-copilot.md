@@ -61,7 +61,7 @@ To start your exploration of generative AI, let's use Copilot for Word on the we
 
 1. Make sure the drop-down above the Copilot prompt box is set to **Allow editing**.
 
-1. In the Copilot pane, enter following the prompt in the text area at the bottom:
+1. In the Copilot pane, enter the following prompt in the text area at the bottom:
 
     ```prompt
     Summarize this document into 5 key points, and suggest next steps.
@@ -73,15 +73,15 @@ To start your exploration of generative AI, let's use Copilot for Word on the we
 
     > **Note**: The specific response you receive may vary due to the nature of generative AI.
 
-    Hopefully, Copilot has provided some useful guidance. However if you have additional questions, you can just ask for more specific information.
+    Hopefully, Copilot has provided some useful guidance. However, if you have additional questions, you can just ask for more specific information.
 
 1. Return to the **Copilot** pane to ask Copilot the following question:
 
     ```prompt
-    How do I setup a new business in New York? Answer with a numbered list.
+    How do I set up a new business in New York? Answer with a numbered list.
     ```
 
-1. Review the response and follow up with additional questions as needed. When you're happy with the response, copy it to the clipboard. Paste it into the Word document after the existing text. Then, select the text that provides a list of things to do when setting up a business in New York. Select the **Edit with Copilot** from the toolbar that appears, then enter `Visualize as a table` and submit the prompt.
+1. Review the response and follow up with additional questions as needed. When you're happy with the response, copy it to the clipboard. Paste it into the Word document after the existing text. Then, select the text that provides a list of things to do when setting up a business in New York. Select **Edit with Copilot** from the toolbar that appears, then enter `Visualize as a table` and submit the prompt.
 
     ![Screenshot asking Copilot to visualize in a table format.](./Media/copilot-rewrite-as-table.png)
 
@@ -140,7 +140,7 @@ With a business plan in hand, let's take some of that data on financial projecti
     1. Select **Home** and choose **Format as Table** under Styles. 
     1. Choose a style for your table.
     1. In the **Format As Table** dialog box, check **My table has headers** and select **OK**.
-1. With your sales projections formatted as a table, open the **Copilot** pane from the bottom right of Excel,confirm the drop-down above the Copilot prompt box is set to **Allow editing**, and then enter the following prompt:
+1. With your sales projections formatted as a table, open the **Copilot** pane from the bottom right of Excel, confirm the drop-down above the Copilot prompt box is set to **Allow editing**, and then enter the following prompt:
 
     ```prompt
     Suggest ways to visualize these financial projections.
@@ -190,7 +190,7 @@ With Copilot's help, you've created a draft of a business plan for the cleaning 
     Add a slide about the benefits of an eco-friendly approach to cleaning.
     ```
 
-    ![Screenshot of PowerPoint presentation create a new slide.](./Media/copilot-powerpoint-add-new-slide.png)
+    ![Screenshot of PowerPoint presentation with a new slide.](./Media/copilot-powerpoint-add-new-slide.png)
 
 1. Close the PowerPoint web tab. The presentation is saved automatically to your OneDrive folder.
 
