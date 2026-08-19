@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Explore Microsoft 365 Copilot (Web version)
+  title: Explore Microsoft Copilot
   description: "In this exercise, you'll harness the power of Copilot to explore a new business idea: starting a corporate cleaning company using the web versions of Microsoft 365 applications."
   duration: 40 minutes
   level: 100
@@ -8,18 +8,18 @@ lab:
   status: released
   primarytopics:
     - Microsoft 365
-    - Microsoft 365 Copilot
+    - Microsoft Copilot
 ---
 
-# Explore Microsoft 365 Copilot (Web Version)
+# Explore Microsoft Copilot
 
-Welcome to the exciting world of Microsoft 365 Copilot using the web-based Microsoft 365 applications!
+Welcome to the exciting world of Microsoft Copilot using the web-based Microsoft 365 applications!
 
 In this exercise, you'll harness the power of Copilot to explore a new business idea: starting a corporate cleaning company using the web versions of Microsoft 365 applications.
 
 Imagine this: you're about to launch a top-notch cleaning service that will revolutionize office spaces everywhere. With Microsoft Copilot by your side in the web applications, you'll research market trends and develop a solid business plan. But that's not all! You'll also create compelling documents, eye-catching presentations, and persuasive emails to help get your idea off the ground and attract investors.
 
-Get ready to unleash your creativity and business acumen as you navigate through this engaging and interactive lab using Microsoft 365 Copilot on the web. By the end of this exercise, you'll have a comprehensive set of materials that will set you on the path to entrepreneurial success. Let's get started and make your corporate cleaning company a reality!
+Get ready to unleash your creativity and business acumen as you navigate through this engaging and interactive lab using Microsoft Copilot on the web. By the end of this exercise, you'll have a comprehensive set of materials that will set you on the path to entrepreneurial success. Let's get started and make your corporate cleaning company a reality!
 
 > **Important**: This exercise provides prompts that you can use to work with Copilot in the web versions of Microsoft 365 apps. You should use these as a *starting point* for your exploration of Copilot. You are encouraged to modify these prompts and add prompts of your own to engage in an iterative dialog with Copilot and refine the results it produces. You may not end with exactly the output that is described in the exercise instructions, but that's OK - the point is to experiment with Copilot.
 
@@ -230,7 +230,7 @@ You've created some collateral to help you get your business started. Now it's t
 
 ## Challenge
 
-Now you've seen how to use Microsoft 365 Copilot in the web applications to research ideas and generate content, why not try exploring further? 
+Now you've seen how to use Microsoft Copilot in the web applications to research ideas and generate content, why not try exploring further? 
 
 Based on what you've learned in this exercise, try using Copilot in the web versions of Microsoft 365 apps to plan a meeting in which you'll propose the adoption of generative AI in your organization. Here are a few ideas to get you started:
 
@@ -243,4 +243,4 @@ Be as inventive as you like, and explore how Copilot can help you by finding inf
 
 ## Conclusion
 
-In this exercise, you've used [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365) in the web versions of Microsoft 365 applications to find information and generate content. Hopefully you've seen how using generative AI in a copilot can help with productivity and creativity, even when working entirely within web browsers. Microsoft 365 web apps enable you to bring the power of generative AI to your business data and processes while providing the flexibility to work from anywhere with internet access, ensuring a manageable, secure, cloud-based solution.
+In this exercise, you've used [Microsoft Copilot](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365) in the web versions of Microsoft 365 applications to find information and generate content. Hopefully you've seen how using generative AI in a copilot can help with productivity and creativity, even when working entirely within web browsers. Microsoft 365 web apps enable you to bring the power of generative AI to your business data and processes while providing the flexibility to work from anywhere with internet access, ensuring a manageable, secure, cloud-based solution.
