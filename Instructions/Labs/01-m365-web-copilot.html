@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Microsoft Copilot</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --panel: #ffffff;
+        --ink: #1f2937;
+        --muted: #4b5563;
+        --line: #dfe5ee;
+        --accent: #005a9e;
+        --accent-2: #0078d4;
+        --code-bg: #f3f4f6;
+        --quote-bg: #eef6ff;
+        --quote-border: #bfdcff;
+        --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(180deg, #f7f9fc 0%, #eef3f9 100%);
+        color: var(--ink);
+        line-height: 1.7;
+      }
+
+      .page {
+        max-width: 1100px;
+        margin: 32px auto;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #0f172a 0%, #005a9e 100%);
+        color: white;
+        padding: 32px 48px 24px;
+      }
+
+      .header h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.2rem, 4vw, 3rem);
+        line-height: 1.15;
+      }
+
+      .subtitle {
+        margin: 0;
+        color: rgba(255,255,255,0.9);
+        font-size: 1.05rem;
+      }
+
+      .content {
+        padding: 36px 48px 48px;
+      }
+
+      h2 {
+        margin-top: 2rem;
+        margin-bottom: 0.9rem;
+        padding-bottom: 0.35rem;
+        border-bottom: 2px solid var(--line);
+        color: var(--accent);
+        font-size: 1.8rem;
+      }
+
+      h3 {
+        margin-top: 1.7rem;
+        margin-bottom: 0.7rem;
+        color: #0f172a;
+        font-size: 1.3rem;
+      }
+
+      p, li {
+        font-size: 1.02rem;
+      }
+
+      a {
+        color: var(--accent-2);
+        text-decoration: none;
+      }
+
+      a:hover { text-decoration: underline; }
+
+      ul, ol {
+        padding-left: 1.5rem;
+      }
+
+      li { margin: 0.3rem 0; }
+
+      blockquote {
+        margin: 1.2rem 0;
+        padding: 1rem 1.1rem 1rem 1.2rem;
+        background: var(--quote-bg);
+        border-left: 4px solid var(--quote-border);
+        border-radius: 8px;
+        color: var(--ink);
+      }
+
+      blockquote strong {
+        color: #0f172a;
+      }
+
+      code {
+        font-family: Consolas, "Courier New", monospace;
+        background: var(--code-bg);
+        border-radius: 6px;
+        padding: 0.12rem 0.38rem;
+        font-size: 0.95em;
+      }
+
+      pre {
+        background: #111827;
+        color: #e5e7eb;
+        border-radius: 12px;
+        padding: 1rem 1.2rem;
+        overflow-x: auto;
+        margin: 1rem 0;
+      }
+
+      pre code {
+        background: transparent;
+        color: inherit;
+        padding: 0;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        margin: 1rem auto;
+        background: #fff;
+      }
+
+      .note {
+        font-size: 0.96rem;
+        color: var(--muted);
+      }
+
+      .step {
+        margin-top: 1.2rem;
+      }
+
+      .step ol {
+        padding-left: 1.75rem;
+      }
+
+      .step li {
+        margin-bottom: 0.8rem;
+      }
+
+      .meta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 14px;
+      }
+
+      .meta span {
+        display: inline-block;
+        background: rgba(255,255,255,0.12);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 999px;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.88rem;
+      }
+
+      @media (max-width: 760px) {
+        .header, .content {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .page {
+          margin: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Explore Microsoft Copilot</h1>
+        <p class="subtitle">Lab exercise for investigating a business idea using the web versions of Microsoft 365 applications.</p>
+        <div class="meta">
+          <span>Duration: 40 minutes</span>
+          <span>Level: 100</span>
+          <span>Primary topics: Microsoft 365, Microsoft Copilot</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <p>Welcome to the exciting world of Microsoft Copilot using the web-based Microsoft 365 applications!</p>
+
+        <p>In this exercise, you'll harness the power of Copilot to explore a new business idea: starting a corporate cleaning company using the web versions of Microsoft 365 applications.</p>
+
+        <p>Imagine this: you're about to launch a top-notch cleaning service that will revolutionize office spaces everywhere. With Microsoft Copilot by your side in the web applications, you'll research market opportunities, draft business plans, build financial projections, prepare presentation content, and organize a funding meeting.</p>
+
+        <p>Get ready to unleash your creativity and business acumen as you navigate through this engaging and interactive lab using Microsoft Copilot on the web. By the end of this exercise, you'll have a comprehensive set of business materials to help evaluate and pitch a new venture.</p>
+
+        <blockquote>
+          <strong>Important</strong>: This exercise provides prompts that you can use to work with Copilot in the web versions of Microsoft 365 apps. You should use these as a <em>starting point</em> for your exploration of ideas and content creation.
+        </blockquote>
+
+        <p>This exercise should take approximately <strong>40</strong> minutes to complete.</p>
+
+        <blockquote>
+          <strong>Note</strong>: This exercise requires a <strong>Microsoft 365 Copilot</strong> license and uses the web versions of Microsoft 365 applications.
+        </blockquote>
+
+        <h2>Getting Started with Microsoft 365 Web Apps</h2>
+
+        <p>Before beginning the lab exercises, you'll need to access Microsoft 365 through the web. Use one of these primary entry points:</p>
+
+        <ul>
+          <li><strong>Main Portal</strong>: <a href="https://m365.cloud.microsoft/">https://m365.cloud.microsoft/</a></li>
+          <li><strong>All Apps</strong>: <a href="https://m365.cloud.microsoft/apps/">https://m365.cloud.microsoft/apps/</a></li>
+        </ul>
+
+        <p>You can also access individual applications directly using these links:</p>
+
+        <ul>
+          <li><strong>OneDrive</strong>: <a href="https://onedrive.cloud.microsoft/">https://onedrive.cloud.microsoft/</a></li>
+          <li><strong>Word</strong>: <a href="https://word.cloud.microsoft/">https://word.cloud.microsoft/</a></li>
+          <li><strong>Excel</strong>: <a href="https://excel.cloud.microsoft/">https://excel.cloud.microsoft/</a></li>
+          <li><strong>PowerPoint</strong>: <a href="https://powerpoint.cloud.microsoft/">https://powerpoint.cloud.microsoft/</a></li>
+          <li><strong>Outlook</strong>: <a href="https://outlook.office.com/">https://outlook.office.com/</a></li>
+        </ul>
+
+        <h2>Use Copilot to explore a document and research an idea</h2>
+
+        <p>To start your exploration of generative AI, let's use Copilot for Word on the web to examine an existing document and extract some insights from it.</p>
+
+        <div class="step">
+          <ol>
+            <li>In a web browser, open the document <a href="https://github.com/MicrosoftLearning/mslearn-copilot/raw/main/Allfiles/Business%20Idea.docx">Business Idea.docx</a> at <code>https://github.com/MicrosoftLearning/mslearn-copilot/raw/main/Allfiles/Business%20Idea.docx</code>.</li>
+            <li>Download the file to your <strong>Downloads</strong> folder.</li>
+            <li>Navigate to <a href="https://onedrive.cloud.microsoft/">OneDrive on the web</a> at <code>https://onedrive.cloud.microsoft/</code> and select <strong>+ Create or upload</strong> &gt; <strong>Files upload</strong>. Select the <strong>Business Idea.docx</strong> file and upload it.</li>
+            <li>Open the <strong>Business Idea.docx</strong> document in <strong>Microsoft Word on the web</strong>. You can open the document directly from your OneDrive by selecting the document.</li>
+            <li>Find and select the <strong>Copilot</strong> icon on the bottom right of Word to open the <strong>Copilot</strong> pane.</li>
+            <img src="./Media/copilot-word-pane-revised.png" alt="Copilot icon in Microsoft Word" />
+            <li>Make sure the drop-down above the Copilot prompt box is set to <strong>Allow editing</strong>.</li>
+            <li>In the Copilot pane, enter the following prompt:</li>
+          </ol>
+        </div>
+
+        <pre><code>Summarize this document into 5 key points, and suggest next steps.</code></pre>
+
+        <ol start="8">
+          <li>Review the response from Copilot, which should summarize the main points in the document.</li>
+        </ol>
+
+        <img src="./Media/copilot-response-word.png" alt="Copilot panel response in Word" />
+
+        <p class="note">The specific response you receive may vary due to the nature of generative AI.</p>
+
+        <p>Hopefully, Copilot has provided some useful guidance. If you have additional questions, ask for more specific information.</p>
+
+        <ol start="9">
+          <li>Return to the <strong>Copilot</strong> pane to ask Copilot this question:</li>
+        </ol>
+
+        <pre><code>How do I set up a new business in New York? Answer with a numbered list.</code></pre>
+
+        <ol start="10">
+          <li>Review the response and follow up with additional questions as needed. When you're happy with the response, copy it to the clipboard. Paste it into the Word document after the existing text.</li>
+          <li>Ask Copilot to rewrite the result as a table or add references. An example prompt might be:</li>
+        </ol>
+
+        <pre><code>Turn this into a table with columns for step, purpose, and key actions.</code></pre>
+
+        <img src="./Media/copilot-rewrite-as-table.png" alt="Asking Copilot to visualize information in a table" />
+
+        <ol start="12">
+          <li>Review the table and ask Copilot to add more information, such as a column with references for more details. Your response should look similar to the following:</li>
+        </ol>
+
+        <img src="./Media/copilot-rewrite-as-table-response.png" alt="Response from Copilot in a table format" />
+
+        <blockquote>
+          <strong>Important</strong>: The AI-generated response is based on information publicly available on the web. While it may help you understand the steps required to set up a business, it is not guaranteed to be complete or legally accurate. Always confirm details with reputable sources before taking action.
+        </blockquote>
+
+        <p>When you're happy with the table that Copilot has generated, select <strong>Done</strong> to keep the changes.</p>
+
+        <h2>Use Copilot to create content for a business plan</h2>
+
+        <p>Now that you've done some initial research, let's have Copilot help you develop a business plan for your cleaning company using Word on the web.</p>
+
+        <ol>
+          <li>With the <strong>Business Idea.docx</strong> document still open in Word on the web, in the <strong>Copilot</strong> pane, enter the following prompt:</li>
+        </ol>
+
+        <pre><code>Can you suggest a name for my cleaning business?</code></pre>
+
+        <ol start="2">
+          <li>Review the suggestions and select a name for your cleaning company (or continue prompting for more suggestions until you find a name you like).</li>
+          <li>Create a new blank document by navigating to <a href="https://word.cloud.microsoft/">Microsoft Word on the web</a> and selecting <strong>Create blank document</strong>. Then, in the Copilot pane, enter:</li>
+        </ol>
+
+        <pre><code>Write a business plan for "Contoso Cleaning" based on the information in /Business Idea.docx. Include an executive summary, market overview, and financial projections.</code></pre>
+
+        <img src="./Media/copilot-draft-business-plan-prompt.png" alt="Copilot drafting a business plan prompt" />
+
+        <blockquote>
+          <strong>Tip</strong>: Type the prompt, and when you type <code>/</code> Copilot should allow you to browse the documents in your OneDrive, including <strong>Business Idea.docx</strong>. Alternatively, select <strong>+</strong> below the prompt box to attach the file.
+        </blockquote>
+
+        <ol start="4">
+          <li>Generate and review the response. Continue working with Copilot until you're happy with the business plan. You can adjust the tone, change the length, or ask Copilot to rewrite sections as needed.</li>
+        </ol>
+
+        <img src="./Media/copilot-draft-business-plan-response.png" alt="Word document with a Copilot-generated business plan" />
+
+        <h2>Visualize financial projections in Copilot for Excel</h2>
+
+        <p>With a business plan in hand, let's take some of that data on financial projections and ask Copilot in Excel on the web to visualize that data for us so we can include it in emails or presentations.</p>
+
+        <ol>
+          <li>With the <strong>Business Plan</strong> document open in Microsoft Word on the web, open the <strong>Copilot</strong> pane.</li>
+          <li>If the business plan already includes a table of projected profits or financial projections, copy the table to your clipboard. Otherwise, enter the following prompt:</li>
+        </ol>
+
+        <pre><code>Create a table of projected profits for the next 5 years, starting with this year. The profit this year should be $10,000 and it should increase by 12% each year.</code></pre>
+
+        <ol start="3">
+          <li>Copy the table of projected profits to the clipboard.</li>
+          <li>Open <a href="https://excel.cloud.microsoft/">Microsoft Excel on the web</a> and create a new blank workbook. Immediately save the workbook as <strong>Financial Projections.xlsx</strong>.</li>
+          <li>Paste the table of profit projections into the Excel spreadsheet and <strong>format it as a table</strong>. To do this:
+            <ol>
+              <li>Select a cell within your data.</li>
+              <li>Select <strong>Home</strong> and choose <strong>Format as Table</strong> under Styles.</li>
+              <li>Choose a style for your table.</li>
+              <li>In the <strong>Format As Table</strong> dialog box, check <strong>My table has headers</strong> and select <strong>OK</strong>.</li>
+            </ol>
+          </li>
+          <li>With your sales projections formatted as a table, open the <strong>Copilot</strong> pane from the bottom right of Excel, confirm the drop-down above the Copilot prompt box is set to <strong>Allow editing</strong>, and enter the following prompt:</li>
+        </ol>
+
+        <pre><code>Suggest ways to visualize these financial projections.</code></pre>
+
+        <ol start="7">
+          <li>Copilot should create a new sheet and add a chart to visualize the financial projections.</li>
+        </ol>
+
+        <img src="./Media/copilot-excel-visualize-projections.png" alt="Copilot in Excel visualizing financial projections" />
+
+        <blockquote>
+          <strong>Tip</strong>: If Copilot suggests a different format for the data, enter the follow-on prompt <code>Visualize the data as a line chart.</code>
+        </blockquote>
+
+        <ol start="8">
+          <li>Select the chart and then select the <strong>Chart</strong> tab to apply styles, change the chart type, and perform other actions. If Copilot created more than one chart, you can repeat this for each one. At the end, save your workbook.</li>
+        </ol>
+
+        <img src="./Media/copilot-excel-chart-design.png" alt="Copilot in Excel adding a PivotChart" />
+
+        <p>Close the Excel web tab. Your workbook is saved automatically.</p>
+
+        <h2>Use Copilot to create content for a presentation</h2>
+
+        <p>With Copilot's help, you've created a draft of a business plan for the cleaning business idea and prepared some financial projections. Now you'll need an effective presentation to communicate the value of the opportunity.</p>
+
+        <ol>
+          <li>Open <a href="https://powerpoint.cloud.microsoft/">Microsoft PowerPoint for the web</a> and create a new <strong>blank presentation</strong>. If the <strong>Designer</strong> pane opens automatically, you can close it.</li>
+          <li>Rename the presentation to <strong>Cleaning Company.pptx</strong> in the title bar.</li>
+          <li>Select the <strong>Copilot</strong> icon in the bottom right of the PowerPoint, and make sure the drop-down above the Copilot prompt box is set to <strong>Allow editing</strong>. Select <strong>Create presentation about topic</strong>.</li>
+        </ol>
+
+        <pre><code>Create a presentation about a corporate cleaning service named "Contoso Cleaning" in New York City. The presentation should include the benefits of using a professional cleaning business.</code></pre>
+
+        <blockquote>
+          <strong>Note:</strong> Replace <strong>Contoso Cleaning</strong> with the company name you chose earlier.
+        </blockquote>
+
+        <blockquote>
+          <strong>Tip:</strong> To help Copilot generate a presentation based on the work you completed earlier, you can optionally attach <strong>Business Plan.docx</strong> and <strong>Financial Projections.xlsx</strong> using the <strong>+</strong> control in the prompt box.
+        </blockquote>
+
+        <ol start="4">
+          <li>Copilot may ask questions about the presentation, such as the visual style or look you want for the deck. You can respond with your preferences or select <strong>Skip all</strong> to let Copilot decide.</li>
+        </ol>
+
+        <img src="./Media/copilot-generate-slides.png" alt="Copilot in PowerPoint on the web asking clarification questions to generate a presentation" />
+
+        <ol start="5">
+          <li>Copilot will generate slides in the presentation. The process may take several minutes and your output should look something like this with a different theme:</li>
+        </ol>
+
+        <img src="./Media/generate-slides-copilot.png" alt="PowerPoint presentation created by Copilot from a Word document" />
+
+        <ol start="6">
+          <li>Select the second-last slide in the presentation. Then, in the <strong>Copilot</strong> pane, enter the following prompt:</li>
+        </ol>
+
+        <pre><code>Add a slide about the benefits of an eco-friendly approach to cleaning.</code></pre>
+
+        <img src="./Media/copilot-powerpoint-add-new-slide.png" alt="PowerPoint presentation with a new slide" />
+
+        <p>Close the PowerPoint web tab. The presentation is saved automatically to your OneDrive folder.</p>
+
+        <h2>Use Copilot to arrange a funding meeting</h2>
+
+        <p>You've created some collateral to help you get your business started. Now it's time to reach out to an investor seeking some startup funding using Outlook on the web.</p>
+
+        <ol>
+          <li>Open <a href="https://outlook.office.com/">Microsoft Outlook on the web</a>. Then, select the <strong>Copilot</strong> icon in the upper-right corner to open the <strong>Copilot</strong> pane.</li>
+          <li>In the left navigation, select <strong>Calendar</strong> and change the view to <strong>Work week</strong> if it isn't already selected. If you don't already have any scheduled events in your calendar for this week, you can create one or review the schedule.</li>
+          <li>In the Copilot pane, enter the following prompt:</li>
+        </ol>
+
+        <pre><code>What events do I have scheduled this week?</code></pre>
+
+        <p>Copilot should respond with a summary of your scheduled events for the week, helping you identify availability for a meeting with a bank manager to arrange startup funding.</p>
+
+        <ol start="4">
+          <li>Switch to the <strong>Mail</strong> page, create a new email, and fill in the <strong>To</strong> box with your own email address.</li>
+          <li>In the message body, select the <strong>Open Copilot</strong> icon to open the Copilot drafting experience.</li>
+        </ol>
+
+        <img src="./Media/copilot-draft-email-outlook.png" alt="Outlook with option to draft an email with Copilot" />
+
+        <ol start="6">
+          <li>Enter the following prompt to generate a draft email:</li>
+        </ol>
+
+        <pre><code>Write an email to a bank manager requesting a meeting to discuss funding for a commercial cleaning business. The email should be concise and the tone should be professional.</code></pre>
+
+        <ol start="7">
+          <li>Use Copilot to refine the email content, and then select <strong>Keep it</strong> to finalize the message.</li>
+        </ol>
+
+        <img src="./Media/copilot-draft-email-adjust-tone-outlook.png" alt="Drafting an email with Copilot in Outlook" />
+
+        <p>You can send the email to yourself if you wish.</p>
+
+        <h2>Challenge</h2>
+
+        <p>Now you've seen how to use Microsoft Copilot in the web applications to research ideas and generate content. Why not try exploring further?</p>
+
+        <p>Based on what you've learned in this exercise, try using Copilot in the web versions of Microsoft 365 apps to plan a meeting in which you'll propose the adoption of generative AI in your organization.</p>
+
+        <ul>
+          <li>Research the benefits of generative AI and Microsoft Copilot for businesses, finding information about productivity benefits, cost-savings, and examples of organizations that have already succeeded.</li>
+          <li>Create a discussion document using Word on the web that you can circulate as pre-reading before the meeting.</li>
+          <li>Create a presentation using PowerPoint on the web that you can use to present your case, including data and visualizations to emphasize key elements of your pitch.</li>
+          <li>Compose an email using Outlook on the web to tell your coworkers about the meeting and provide some context for it.</li>
+        </ul>
+
+        <p>Be as inventive as you like, and explore how Copilot can help you by finding information, generating and refining text, creating images, and answering questions - all within the web-based Microsoft 365 ecosystem.</p>
+
+        <h2>Conclusion</h2>
+
+        <p>In this exercise, you've used <a href="https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365">Microsoft Copilot</a> in the web versions of Microsoft 365 applications to find information, synthesize ideas, and create meaningful business content. By combining Copilot with the web versions of Word, Excel, PowerPoint, and Outlook, you've practiced a realistic flow for exploring a business concept and turning research into polished deliverables.</p>
+      </main>
+    </div>
+  </body>
+</html>
